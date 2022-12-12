@@ -1,10 +1,12 @@
-import './App.css';
+
+import ControllForm from './FormControll/ControllForm';
 import DataFetching from './Hooks/DataFetching';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      {/* <DataFetching /> */}
+      <ControllForm />
     </div>
   );
 }
