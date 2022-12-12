@@ -1,6 +1,7 @@
 
 import ControllForm from './FormControll/ControllForm';
 import DataFetching from './Hooks/DataFetching';
+import UseEffect from './Hooks/UseEffect';
 import Toggle from './Toggle/Toggle';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <DataFetching /> */}
       {/*<ControllForm />*/}
-      <Toggle />
+      {/*<Toggle />*/}
+      <UseEffect />
     </div>
   );
 }
