@@ -3,6 +3,7 @@ import ControllForm from './FormControll/ControllForm';
 import UseEffect from './Hooks/UseEffect';
 import Toggle from './Toggle/Toggle';
 import DataFetchOne from './DataFecching/DataFetchOne';
+import DataFetchingTwo from './DataFecching/DataFetchingTwo';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/*<ControllForm />*/}
       {/*<Toggle />*/}
       {/*<UseEffect />*/}
-      <DataFetchOne />
+      {/*<DataFetchOne />*/}
+      <DataFetchingTwo />
     </div>
   );
 }
